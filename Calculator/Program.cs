@@ -17,9 +17,11 @@ namespace Calculator
 
             // Perform the calculations and assign the results to a variable
             double sum = Add(firstNumber, secondNumber);
+            double difference = Subtract(firstNumber, secondNumber);
 
             // Inform the user of the results
-            Console.WriteLine($"Congratulations! { firstNumber } + { secondNumber } = { sum }");
+            Console.WriteLine($"ADDITION: { firstNumber } + { secondNumber } = { sum }");
+            Console.WriteLine($"SUBTRACTION: { firstNumber } - { secondNumber } = { difference }");
             
             // Keep the Console open until the user decides to close it
             Console.WriteLine("Please press Enter to continue...");
