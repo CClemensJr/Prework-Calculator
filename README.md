@@ -13,28 +13,28 @@ The following functions supply the Prework Calculator with all of it's functiona
 The addition functionality takes two numbers and adds them together.
 
 ```
-Image to go here.
+![alt text](https://github.com/CClemensJr/Prework-Calculator/blob/master/images/additionFunction.PNG?raw=true "Add Function")
 ```
 
 ### Subtraction
 The subtraction functionality takes two numbers and subtracts on from the other.
 
 ```
-Image to go here.
+![alt text](https://github.com/CClemensJr/Prework-Calculator/blob/master/images/subtractionFunction.PNG?raw=true "Subtract Function")
 ```
 
 ### Multiplication
 The multiplication functionality takes two numbers and multiplies them together.
 
 ```
-Image to go here.
+![alt text](https://github.com/CClemensJr/Prework-Calculator/blob/master/images/multiplicationFunction.PNG?raw=true "Multiply Function")
 ```
 
 ### Division
 The division functionality takes two numbers and divides one by the other.
 
 ```
-Image to go here.
+![alt text](https://github.com/CClemensJr/Prework-Calculator/blob/master/images/divisionFunction.PNG?raw=true "Divide Function")
 ```
 
 ## Authors
