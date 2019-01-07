@@ -43,5 +43,15 @@ namespace Calculator
 
             return difference;
         }
+
+        // Multiply two parameters together and return a solution
+        static double Multiply(double number1, double number2)
+        {
+            double product = number1 - number2;
+
+            return product;
+        }
+
+
     }
 }
