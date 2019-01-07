@@ -19,6 +19,10 @@ namespace Calculator
 
             // Inform the user of the results
             Console.WriteLine($"Congratulations! { firstNumber } + { secondNumber } = { sum }");
+            
+            // Keep the Console open until the user decides to close it
+            Console.WriteLine("Please press Enter to continue...");
+            Console.ReadLine();
         }
 
         // Add two parameters together and return a solution
