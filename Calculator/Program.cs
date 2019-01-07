@@ -57,6 +57,7 @@ namespace Calculator
             return product;
         }
 
+        // Divide one paramter by the other
         static double Divide(double number1, double number2)
         {
             double quotient = number1 / number2;
