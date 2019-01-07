@@ -18,11 +18,16 @@ namespace Calculator
             // Perform the calculations and assign the results to a variable
             double sum = Add(firstNumber, secondNumber);
             double difference = Subtract(firstNumber, secondNumber);
+            double product = Multiply(firstNumber, secondNumber);
+            //double quotient = Divide(firstNumber, secondNumber);
 
             // Inform the user of the results
             Console.WriteLine($"ADDITION: { firstNumber } + { secondNumber } = { sum }");
             Console.WriteLine($"SUBTRACTION: { firstNumber } - { secondNumber } = { difference }");
-            
+            Console.WriteLine($"MULTIPLICATION: { firstNumber } x { secondNumber } = { product }");
+            //Console.WriteLine($"DIVISION: { firstNumber } / { secondNumber } = { quotient }");
+
+
             // Keep the Console open until the user decides to close it
             Console.WriteLine("Please press Enter to continue...");
             Console.ReadLine();
@@ -47,7 +52,7 @@ namespace Calculator
         // Multiply two parameters together and return a solution
         static double Multiply(double number1, double number2)
         {
-            double product = number1 - number2;
+            double product = number1 * number2;
 
             return product;
         }
