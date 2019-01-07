@@ -11,6 +11,7 @@ namespace Calculator
             Console.WriteLine("Give me a couple numbers:");
 
             // Assign the numbers to variables
+            // Double is used in case the user wants to add decimals
             double firstNumber = Double.Parse(Console.ReadLine());
             double secondNumber = Double.Parse(Console.ReadLine());
 
@@ -26,12 +27,19 @@ namespace Calculator
         }
 
         // Add two parameters together and return a solution
-        // Double is used in case the user wants to add decimals
         static double Add(double number1, double number2)
         {
             double sum = number1 + number2;
 
             return sum;
+        }
+
+        // Subtract one parameter from the other and return a solution
+        static double Subtract(double number1, double number2)
+        {
+            double difference = number1 - number2;
+
+            return difference;
         }
     }
 }
