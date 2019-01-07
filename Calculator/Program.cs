@@ -6,29 +6,8 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            // Interface with the user
             UserInterface();
-
-            // Ask for two numbers from the user
-            //Console.WriteLine("Hello World!");
-            //Console.WriteLine("Give me a couple numbers:");
-
-            // Assign the numbers to variables
-            // Double is used in case the user wants to add decimals
-            //double firstNumber = Double.Parse(Console.ReadLine());
-            //double secondNumber = Double.Parse(Console.ReadLine());
-
-            // Perform the calculations and assign the results to a variable
-            //double sum = Add(firstNumber, secondNumber);
-            //double difference = Subtract(firstNumber, secondNumber);
-            //double product = Multiply(firstNumber, secondNumber);
-            //double quotient = Divide(firstNumber, secondNumber);
-
-            // Inform the user of the results
-            //Console.WriteLine($"ADDITION: { firstNumber } + { secondNumber } = { sum }");
-            //Console.WriteLine($"SUBTRACTION: { firstNumber } - { secondNumber } = { difference }");
-            //Console.WriteLine($"MULTIPLICATION: { firstNumber } x { secondNumber } = { product }");
-            //Console.WriteLine($"DIVISION: { firstNumber } / { secondNumber } = { quotient }");
-
 
             // Keep the Console open until the user decides to close it
             Console.WriteLine("Please press Enter to continue...");
