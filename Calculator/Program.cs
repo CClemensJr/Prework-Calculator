@@ -57,6 +57,12 @@ namespace Calculator
             return product;
         }
 
+        static double Divide(double number1, double number2)
+        {
+            double quotient = number1 / number2;
+
+            return quotient;
+        }
 
     }
 }
