@@ -19,13 +19,13 @@ namespace Calculator
             double sum = Add(firstNumber, secondNumber);
             double difference = Subtract(firstNumber, secondNumber);
             double product = Multiply(firstNumber, secondNumber);
-            //double quotient = Divide(firstNumber, secondNumber);
+            double quotient = Divide(firstNumber, secondNumber);
 
             // Inform the user of the results
             Console.WriteLine($"ADDITION: { firstNumber } + { secondNumber } = { sum }");
             Console.WriteLine($"SUBTRACTION: { firstNumber } - { secondNumber } = { difference }");
             Console.WriteLine($"MULTIPLICATION: { firstNumber } x { secondNumber } = { product }");
-            //Console.WriteLine($"DIVISION: { firstNumber } / { secondNumber } = { quotient }");
+            Console.WriteLine($"DIVISION: { firstNumber } / { secondNumber } = { quotient }");
 
 
             // Keep the Console open until the user decides to close it
